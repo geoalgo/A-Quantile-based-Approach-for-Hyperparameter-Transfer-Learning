@@ -1,6 +1,7 @@
 # A-Quantile-based-Approach-for-Hyperparameter-Transfer-Learning
 
-This code reproduces the method of the paper "A quantile approach for hyperparameter transfer learning" published at 
+This code reproduces the method of the paper 
+[A quantile approach for hyperparameter transfer learning](https://icml.cc/virtual/2020/poster/6483) published at 
 ICML 2020. 
 
 Four datasets of precomputed evaluations are available (DeepAR, FCNET, XGBoost and nas_bench102). The first three 
@@ -73,8 +74,8 @@ To rerun the reimplementation, you can use the following command to obtain resul
 python experiments/evaluate_optimizer_task.py --task cifar10 --optimizer GCP+prior --num_seeds 2 --num_evaluations 20 --output_folder result-folder/
 ```
 
-This will write down a result file `result.csv.zip` into the folder specified in output_folder.
-The result will be for a single task/optimizer, to run all the benchmark we highly recommend parralelizing through
+This will write `result.csv.zip` into the folder specified in output_folder.
+As the result will be for a single task/optimizer, to run all the benchmark we highly recommend parralelizing through
 your favorite cloud provider.
 
 
