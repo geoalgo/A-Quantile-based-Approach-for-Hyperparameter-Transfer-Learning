@@ -1,0 +1,11 @@
+pandas
+numpy
+torch
+scipy
+sklearn
+torchvision
+tqdm
+botorch
+gpytorch
+matplotlib
+pytest # for unit-tests
