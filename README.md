@@ -10,7 +10,7 @@ Four datasets of precomputed evaluations are available (DeepAR, FCNET, XGBoost a
 
 This is an reimplementation from scratch of the method as the initial implemented depended on proprietary components. 
 As such, the results differ and may be slightly worse given that different frameworks were used (botorch,
- pytorch for the GP in particular) but we made sure the reimplementation is reasonably close, see bellow for a 
+ pytorch for the GP in particular) but we made sure the reimplementation is reasonably close, see below for a 
  comparison with the reimplementation and our initial implementation.
  
 *Table 2 comparison*
@@ -30,7 +30,7 @@ GCP+prior* (pytorch) 0.389110  0.769105  0.137245      0.978004
 ```
 
 I have cleaned the code so that Figure 1, Figure 2 and Table 2 can be recomputed in case you want to compare with your 
-new method or reevaluate the proposed method.  
+new method or evaluate again the proposed method.  
 
 ## How to run
 
@@ -85,4 +85,20 @@ To benchmark some methods on a given dataset quickly, see `benchmark_example.py`
 and plot their convergence distribution.
 
 
+### citation
+
+In case this work is useful for your research, here is a bibtex for you know what :)
+
+```
+@incollection{icml2020_4367,
+ author = {Salinas, David and Shen, Huibin and Perrone, Valerio},
+ booktitle = {Proceedings of Machine Learning and Systems 2020},
+ pages = {7706--7716},
+ title = {A quantile-based approach for hyperparameter transfer learning},
+ year = {2020}
+}
+```
+
+
 In case you have any question, please feel free to open an issue or send me an email.
+
