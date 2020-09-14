@@ -85,7 +85,7 @@ To benchmark some methods on a given dataset quickly, see `benchmark_example.py`
 and plot their convergence distribution.
 
 
-### citation
+## Citation
 
 In case this work is useful for your research, here is a bibtex for you know what :)
 
